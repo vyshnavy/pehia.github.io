@@ -1,75 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>About</title>
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" type="text/css" href="css/about.css">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <head>
+      <!-- meta charec set -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Page Title -->
+        <title>Pehia Foundation</title>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" a href="index.html">
-      	<img src="img/logo.jpg" width="35" height="35">
-      </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="Blogs.html">Blogs</a></li>
-        <li><a href="#">Donate</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google Font -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
+    <!-- CSS
+    ================================================== -->
+    <!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Twitter Bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jquery.fancybox  -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- animate -->
+        <link rel="stylesheet" href="css/animate.css">
+    <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+    <!-- media-queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" type="text/css" href="about.css">
+
+    <!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+    </head>
+  
+    <body id="body">
+  
+    <!-- preloader -->
+    <div id="preloader">
+      <img src="img/preloader.gif" alt="Preloader">
+    </div>
+    <!-- end preloader -->
+
+        <!-- 
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+          <!-- /responsive nav button -->
+          
+          <!-- logo -->
+                    <a class="navbar-brand" href="index.html">
+            <h1 id="logo">
+              <img src="img/pehia.png" alt="no" width="100" height="50">
+            </h1>
+          </a>
+          <!-- /logo -->
+                </div>
+
+        <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                    </ul>
+                </nav>
+        <!-- /main nav -->
+        
+            </div>
+        </header>
 
 
 <div style="text-align:center">
   <h2>About PEHIA</h2>
   <p>Code has no gender</p>
-</div>
-
-<!-- The App Section -->
-<div class="container">
+</div>        
+ <div class="container">
   <div class="row">
     <div class="column-66">
-      <h1 class="large-font"><b>Story here</b></h1>
+      <h1 class="large-font"><font color="#f3a7b6"><b>Story here</b></h1>
       <p>PEHIA is a non-profit  working towards the cause of spearding technical awareness among gender minorties with special focus on bringing more into programming.
 
-Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p>
-      <button class="button" style="background-color:#f3a7b6">Join Us</button>
+Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p></font>
+      <button class="button" style="background-color:#66c5f1">Join Us</button>
     </div>
     <div class="column-33">
         <img src="img/ux.jpeg" width="335" height="471">
     </div>
   </div>
 </div>
-
-<!-- Clarity Section -->
 <div class="container">
   <div class="row">
     <div class="column-33">
       <img src="img/ux.jpeg" alt="App" width="335" height="471">
     </div>
     <div class="column-66">
-      <h1 class="large-font"><b>story continues</b></h1>
+      <h1 class="large-font"><b><font color="#805ca2">story continues</b></h1>
       <p> PEHIA is a non-profit  working towards the cause of spearding technical awareness among gender minorties with special focus on bringing more into programming.
 
-Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p> 
-      <button class="button" style="background-color:#66c5f1">Join Us</button>
+Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p> </font>
+      <button class="button" style="background-color:#f3a7b6">Join Us</button>
     </div>
   </div>
 </div>
@@ -78,11 +116,11 @@ Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featur
 <div class="container">
   <div class="row">
     <div class="column-66">
-      <h1 class="large-font"><b>story ends here</b></h1>
+      <h1 class="large-font"><b><font color="66c5f1">story ends here</b></h1>
            <p>PEHIA is a non-profit  working towards the cause of spearding technical awareness among gender minorties with special focus on bringing more into programming.
 
-Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p>
-      <button class="button" style="background-color:#805ca2">Join Us</button>
+Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p></font>
+      <button class="button" style="background-color:#f3a7b6">Join Us</button>
     </div>
     <div class="column-33">
         <div class="container">
@@ -94,5 +132,199 @@ Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featur
     </div>
   </div>
 </div>
-</body>
-</html>
+
+<!--next divison for features-->
+
+    <section id="works" class="works clearfix">
+            <div class="container">
+                <div class="row">
+                
+                    <div class="sec-title text-center">
+                        <h2>Featuren In</h2>
+                        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="project-wrapper">
+            
+                <figure class="mix work-item branding">
+                    <img src="img/malayala.gif" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item web">
+                    <img src="img/asianet.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item logo-design">
+                    <img src="img/mathrubumi.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                         <h4>short note</h4>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item photography">
+                    <img src="img/kaumudi.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+                    </figcaption>
+                </figure>
+            
+                <figure class="mix work-item branding">
+                    <img src="img/deccan.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item web">
+                    <img src="img/24.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item logo-design">
+                    <img src="img/works/item-7.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href=""><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+              </figcaption>
+                </figure>
+                
+                <figure class="mix work-item photography">
+                    <img src="img/works/item-8.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>short note</h4>
+              </figcaption>
+                </figure>
+                
+            </div>
+        
+
+        </section>
+        
+
+
+
+
+
+        <!--footer begins-->
+        <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+        
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+            <div class="footer-single">
+              <img src="img/pehia.png" alt="" width="100" height="50">
+              <p>Code Has No Gender</p>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+            <div class="footer-single">
+              <h6>Subscribe to newsletter </h6>
+              <form action="#" class="subscribe">
+                <input type="text" name="subscribe" id="subscribe">
+                <input type="submit" value="&#8594;" id="subs">
+              </form>
+              <p>description</p>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+            <div class="footer-single">
+              <h6>Explore</h6>
+              <ul>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="#">Home</a></li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+            <div class="footer-single">
+              <h6>Support</h6>
+              <ul>
+                <li><a href=""><i class="fa fa-instagram fa-lg"></i>Instagram</a></li>
+                <li><a href="#"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+                <li><a href="#"><i class="fa fa-google-plus fa-lg"></i>Gmail</a></li>
+            </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyright text-center">
+              Copyright © 2019 <a href="http://themefisher.com/">Pehia Foundation</a>. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+    <!-- Essential jQuery Plugins
+    ================================================== -->
+    <!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+    <!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+    <!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+    <!-- jquery.mixitup.min -->
+        <script src="js/jquery.mixitup.min.js"></script>
+    <!-- jquery.parallax -->
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+    <!-- jquery.countTo -->
+        <script src="js/jquery-countTo.js"></script>
+    <!-- jquery.appear -->
+        <script src="js/jquery.appear.js"></script>
+    <!-- Contact form validation -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+    <!-- Google Map -->
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+    <!-- jquery easing -->
+        <script src="js/wow.min.js"></script>
+    <script>
+      var wow = new WOW ({
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       120,          // distance to the element when triggering the animation (default is 0)
+        mobile:       false,       // trigger animations on mobile devices (default is true)
+        live:         true        // act on asynchronously loaded content (default is true)
+        }
+      );
+      wow.init();
+    </script> 
+    <!-- Custom Functions -->
+        <script src="js/custom.js"></script>
+
+    </body>
+    </html>
