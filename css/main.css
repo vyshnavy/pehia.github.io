@@ -1,8 +1,4 @@
 
-/* =================================== */
-/*	Basic Style 
-/* =================================== */
-
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -129,7 +125,7 @@ body > section,
   z-index: 1100;
 }
 
-#preloader > img {
+#preloader  img {
   left: 47%;
   position: absolute;
   top: 48%;
@@ -185,6 +181,7 @@ body > section,
 
 #slider .carousel-inner .item {
   background-size: cover;
+  height:700px;
 }
 
 .carousel-caption {
@@ -237,7 +234,7 @@ top: -8px;
 }
 
 .social-links li a {
-  color:#805ca2;
+  color: ####;
   display: block;
   margin: 0 6px;
 }
@@ -492,6 +489,56 @@ top: -8px;
 }
 
 
+/*about here css--------------------------
+------------------------------------------- */
+
+
+.container {
+  padding: 2px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+
 /*=========================================
 	Some fun facts
 ==========================================*/
@@ -548,6 +595,7 @@ top: -8px;
   margin-top: 15px;
   text-transform: uppercase;
 }
+/*about*/
 
 
 /*=========================================
@@ -724,4 +772,3 @@ label.error {
   right: 25px;
   z-index: 9;
 }
-
