@@ -214,6 +214,11 @@
   #sponsors .spnsors-logo {
     margin-bottom: 15px;
   }
+  #pricing .price_box{
+    max-width: 100px!important;
+    max-height: 500px;
+    margin: 10px;
+  }
   .blog-item .descr h3 a {
     font-size: 18px;
   }

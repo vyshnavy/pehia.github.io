@@ -578,6 +578,7 @@
 }
 .lni-menu-circle:before {
   content: "\e9b8";
+  size:10px;
 }
 .lni-menu:before {
   content: "\e9b9";
