@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <!-- meta charec set -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
-    <!-- Google Font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Vyshnavy" />
 
-    <!-- CSS
-    ================================================== -->
-    <!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Twitter Bootstrap css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <!-- animate -->
-        <link rel="stylesheet" href="css/animate.css">
-    <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-    <!-- media-queries -->
-        <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/slicknav.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-    <!-- Modernizer Script for old Browsers -->
-        <script src="js/modernizr-2.6.2.min.js"></script>
+    <title>About Pehia</title>
+</head>
 
-    </head>
-  
-    <body id="body">
+    <body>
   
     <!-- preloader -->
     <div id="preloader">
@@ -39,34 +25,66 @@
     </div>
     <!-- end preloader -->
 
-        <!-- 
-        Fixed Navigation
-        ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-          
-          <!-- logo -->
-            <h1 id="logo">
-              <img src="img/pehia.png" alt="no" width="100" height="50">
-            </h1>
-          </a>
-          <!-- /logo -->
+         <header id="header-wrap">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      <span class="icon-menu"></span>
+                      <span class="icon-menu"></span>
+                      <span class="icon-menu"></span>
+                    </button>
+                    <img src="img/pehia.png" class="navbar-brand" height="75px" width="203px">
+                </div>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events/events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                 </ul>
+                </div>
+            </div>
 
-        <!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="blogs.html">Blogs</a></li>
-                    </ul>
-                </nav>
-        <!-- /main nav -->
-        
-        </header>
-    <!--- about begins here-->
-    <div style="text-align:center">
-  <h1>About Us</h1>
+            <!-- Mobile Menu Start -->
+            <ul class="mobile-menu">
+                <li>      
+                    <a class="page-scrool" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="page-scrool" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="events.html">Events</a>
+                </li>
+                <li>s
+                    <a class="page-scroll" href="#">Blogs</a>
+                </li>
+            </ul>
+            <!-- Mobile Menu End -->
+
+        </nav>
+        <!-- Navbar End -->
+<div class="hero-image">
+  <img src="img/about1.jpg">
+  <div class="hero-text">
+    <h1 style="font-size:50px"></h1>
+    <button>Join Us</button>
+  </div>
 </div>
+
+    <!--- about begins here-->
 <div class="container">
   <div class="row">
     <div class="column-66">
@@ -103,7 +121,7 @@ Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featur
       <p>PEHIA is a non-profit  working towards the cause of spearding technical awareness among gender minorties with special focus on bringing more into programming.
 
 Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featured across national media, with a network all over Kerala with members over 200+, PEHIA is undoubtedly one of the leading intiatives in the WIT space in Kerala.</p>
-      <button class="button" style="#805ca2">Join Us</button>
+      <button class="button" style=" background-color: #805ca2">Join Us</button>
     </div>
     <div class="column-33">
         <img src="img/about3.jpeg" width="700" height="800" >
@@ -115,7 +133,7 @@ Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featur
         ==================================== -->
     
     
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer-area section-padding" style="background-color: #F3A7B6;">
       <div class="container">
         <div class="row">
         
@@ -133,7 +151,6 @@ Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featur
                 <input type="text" name="subscribe" id="subscribe">
                 <input type="submit" value="&#8594;" id="subs">
               </form>
-              <p>description</p>
             </div>
           </div>
         
@@ -149,87 +166,52 @@ Nominee to Asianet Sthree Shakthi Awards in 2018, multiple interviews and featur
             </div>
           </div>
         
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+           <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
             <div class="footer-single">
               <h6>Support</h6>
               <ul>
-                <li><a href=""><i class="fa fa-instagram fa-lg"></i>Instagram</a></li>
-
-                <li><a href="#"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
-                <li><a href="#"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i>Gmail</li>
+                <li><a href="#"><i class="lni-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="lni-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="lni-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="lni-envelope"></i> Gmail</a></li>
 
               </ul>
             </div>
           </div>
           
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p class="copyright text-center">
-              Copyright © 2019 <a href="http://themefisher.com/">Pehia Foundation</a>. All rights reserved.</p>
-          </div>
-        </div>
       </div>
     </footer>
+    <div id="copyright" style="background-color: #805CA2;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-info" >
+                        <p style="color: #F3A7B6;">Copyright © 2019 <a href="#" style="color: #66C5F1;">Pehia Foundation</a> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>a
     
-    <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
-
     <!-- Essential jQuery Plugins
     ================================================== -->
-    <!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
-    <!-- Single Page Nav -->
-        <script src="js/jquery.singlePageNav.min.js"></script>
-    <!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-    <!-- jquery.fancybox.pack -->
-        <script src="js/jquery.fancybox.pack.js"></script>
-    <!-- jquery.mixitup.min -->
-        <script src="js/jquery.mixitup.min.js"></script>
-    <!-- jquery.parallax -->
-        <script src="js/jquery.parallax-1.1.3.js"></script>
-    <!-- jquery.countTo -->
-        <script src="js/jquery-countTo.js"></script>
-    <!-- jquery.appear -->
-        <script src="js/jquery.appear.js"></script>
-    <!-- Contact form validation -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-    <!-- Google Map -->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <!-- jquery easing -->
-        <script src="js/jquery.easing.min.js"></script>
-    <!-- jquery easing -->
-        <script src="js/wow.min.js"></script>
-    <script>
-      var wow = new WOW ({
-        boxClass:     'wow',      // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-        offset:       120,          // distance to the element when triggering the animation (default is 0)
-        mobile:       false,       // trigger animations on mobile devices (default is true)
-        live:         true        // act on asynchronously loaded content (default is true)
-        }
-      );
-      wow.init();
-    </script> 
-    <script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.padding = "30px 10px";
-        document.getElementById("logo").style.fontSize = "25px";
-    }     else {
-        document.getElementById("navbar").style.padding = "80px 10px";
-        document.getElementById("logo").style.fontSize = "35px";
-    }
-}
-</script>
-    <!-- Custom Functions -->
-        <script src="js/custom.js"></script>
     
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.min.js"></script>    
+
+
+   
 
 
 </body>
