@@ -205,8 +205,8 @@ ul li, ol li {
   list-style: none;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/about1.jpg');
-  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/home2.jpg');
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
