@@ -1118,11 +1118,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 
 
+
 .button {
   border: none;
   color: white;
-  padding: 14px 28px;
-  font-size: 16px;
+  /*padding: 14px 28px;
+  */font-size: 16px;
   cursor: pointer;
   background-color: #4CAF50;
 }
